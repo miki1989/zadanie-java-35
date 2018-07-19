@@ -5,7 +5,6 @@ public class SporTest {
     public static void main(String[] args) {
 
         Sport[] sporty = new Sport[3];
-        //sporty[0] = new Sport(, , )
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
@@ -28,7 +27,6 @@ public class SporTest {
                 }
                 break;
             }
-            //System.out.println(sporty[i].getName() + " " + sporty[i].getOrigin() + " " + sporty[i].getPopularity());
             System.out.println();
         }
         for (int i = 0; i < sporty.length; i++) {
